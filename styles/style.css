@@ -28,7 +28,7 @@ header{
     position:fixed;
     top: 0;
     left:0;
-    width: 100;
+    width: 100%;
     padding:2rem 9%;
     background-color: var(--bg-color);
     display: flex;
@@ -46,6 +46,7 @@ nav a {
     color: var(--white-color);
     font-weight: 500;
     margin-left: 3.5rem;
+    transition: .5s;
 }
 nav a:hover, 
 nav a.active{
