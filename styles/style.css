@@ -62,8 +62,12 @@ section {
 }
 .home {
     display: flex;
+    gap:  5rem;
     align-items: center;
     background-color: var(--bg-color);
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
 }
 .home-detail {
     color: var(--white-color);
@@ -81,7 +85,8 @@ section {
 .btn-box{
     padding-top: 4rem;
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 .btn-hire {
     font-size: 2.5rem;
@@ -126,7 +131,19 @@ section {
                 0 0 10px rgba(124, 240, 61, 0.5);
     transition: 0.5s;
 }
+.home-img-container {
+    width: 32vw;
+    height:32vw;
+    min-width: 200px; 
+    min-height: 200px;
+    max-width: 500px; 
+    max-height: 500px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
-
-
+}
 
