@@ -64,7 +64,7 @@ nav a.active{
     background-color: var(--bg-color);
     
 }
-.home-detail {
+.home__detail {
     color: var(--white-color);
 }
 .home h1 {
@@ -77,13 +77,13 @@ nav a.active{
 .home p {
     font-size: 1.5rem;
 }
-.btn-box{
+.btn{
     padding-top: 4rem;
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
 }
-.btn-hire {
+.btn__hire {
     font-size: 2.5rem;
     font-weight: 500;
     color: var(--bg-color);
@@ -96,7 +96,7 @@ nav a.active{
                 0 0 10px rgba(124, 240, 61, 0.5);
     transition: 0.5s;
 }
-.btn-hire:hover{
+.btn__hire:hover{
     color: var(--main-color);
     border:2px solid var(--main-color);
     padding:0.5rem 2.5rem;
@@ -104,7 +104,7 @@ nav a.active{
     background-color: var(--bg-color);
 
 }
-.btn-download {
+.btn__download {
     color: var(--main-color);
     border:2px solid var(--main-color);
     padding:0.5rem 2.5rem;
@@ -113,7 +113,7 @@ nav a.active{
     border-radius: 3rem;
     font-size: 2.5rem;
 }
-.btn-download:hover{
+.btn__download:hover{
     font-size: 2.5rem;
     font-weight: 500;
     color: var(--bg-color);
