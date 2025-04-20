@@ -38,23 +38,29 @@ header{
     z-index: 100;
 }
 .logo {
-    font-size: 3rem;
+    font-size: 5rem;
     color: var(--white-color);
     font-weight: 700;
 }
 nav a {
-    font-size: 2rem;
-    color: var(--white-color);
-    font-weight: 500;
-    margin-left: 3.5rem;
-    transition: .5s;
-}
-nav a:hover, 
-nav a.active{
-    color: var(--main-color);
     
+font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 200;
+    margin-left: 7rem;
+    padding: 0.5rem 1rem; 
+    box-sizing: border-box;
+    letter-spacing: 1px; 
+    transition: all 0.3s ease; 
+    text-decoration: none; 
+    display: inline-block; 
+    width: 120px; 
+    text-align: center;
 }
-
+nav a:hover{
+    border-bottom: 2.7px solid white;
+    font-weight: 500;
+}
 .home {
     display: flex;
     height: 100vh;
@@ -68,14 +74,14 @@ nav a.active{
     color: var(--white-color);
 }
 .home h1 {
-    font-size: 5.5rem;
+    font-size: 7rem;
 }
 .home h2 {
-    font-size: 3.2rem;
+    font-size: 5rem;
     margin-top: -1rem;
 }
 .home p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .btn{
     padding-top: 4rem;
