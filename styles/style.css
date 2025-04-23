@@ -140,3 +140,8 @@ nav a:hover{
                 0 0 10px rgba(124, 240, 61, 0.5);
     transition: 0.5s;
 }
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    
+}
