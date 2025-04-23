@@ -36,6 +36,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    
 }
 .logo {
     font-size: 5rem;
@@ -66,7 +67,7 @@ nav a:hover{
     height: 100vh;
     padding: 60px 9% 0;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
     background-color: var(--bg-color);
     
 }
@@ -77,14 +78,18 @@ nav a:hover{
     color: #7cf03d;
 }
 .home h1 {
-    font-size: 7rem;
+    font-size: 6rem;
+}
+.home h1 span {
+    color: #7cf03d;
 }
 .home h2 {
     font-size: 5rem;
     margin-top: -1rem;
 }
 .home p {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    width: 70%;
 }
 .btn{
     padding-top: 4rem;
