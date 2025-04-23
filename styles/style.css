@@ -140,8 +140,26 @@ nav a:hover{
                 0 0 10px rgba(124, 240, 61, 0.5);
     transition: 0.5s;
 }
-.social-icons{
-    display: flex;
-    flex-direction: row;
-    
+
+.copy-rights{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-bottom: 10px;
+}
+
+.social-icons a {
+text-decoration: none;
+color: #333;
+font-size: 30px;
+transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+color: #0073b1; /* Azul para LinkedIn, puedes personalizar */
 }
